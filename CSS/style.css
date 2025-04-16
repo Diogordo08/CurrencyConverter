@@ -124,4 +124,9 @@ main #result span{
         align-items: center;
         justify-content: center;
     }
+
+    main #result span{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
