@@ -38,7 +38,7 @@ function handleSubmit(event) {
 
 function converter(value){
     valueConverted = inputValue.value / highValue;
-    result.innerHTML = valueFormatted('en-US', value);
+    result.innerHTML = valueFormatted('pt-BR', value);
 }
 
 function valueFormatted(locale, currency) {
