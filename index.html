@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Conversor de moedas</h1>
+    </header>
+
+    <main>
+        <form id="form" action="">
+            <div class="input-container">
+                <div class="form-group">
+                    <label for="value-money">Valor a ser convertido (Em R$)</label>
+                    <input type="number" placeholder="20,00" id="value-money" name="value-money" max="1000000" required>
+                </div>
+                <div class="form-group">
+                    <label for="currency">Moeda</label>
+                    <select id="currency" required>
+                        <option value="">Selecione...</option>
+                        <option value="usd">Dolar</option>
+                        <option value="cad">Dolar Canadense</option>
+                        <option value="eur">Euro</option>
+                        <option value="gbp">Libra</option>
+                        <option value="ars">Peso Argentino</option>
+                        <option value="btc">Bitcoin</option>
+                        <option value="ltc">Litecoin</option>
+                        <option value="jpy">Iene</option>
+                        <option value="chf">Franco Suico</option>
+                        <option value="aud">Dolar Autraliano</option>
+                        <option value="cny">Yuan Chines</option>
+                        <option value="ils">Novo Shekel</option>
+                        <option value="eth">Ethereum</option>
+                        <option value="xrp">XRP</option>
+                        <option value="doge">Dogecoin</option>
+                        <option value="sgd">Dolar de Cingapura</option>
+                        <option value="aed">Dirham dos Emirados</option>
+                        <option value="dkk">Coroa Dinamarquesa</option>
+                        <option value="hkd">Dolar de Hong Kong</option>
+                        <option value="mxn">Peso Mexicano</option>
+                        <option value="nok">Coroa Norueguesa</option>
+                        <option value="nzd">DOlar Neozelandes</option>
+                        <option value="pln">Zloti Polones</option>
+                        <option value="sar">Riyal Saudita</option>
+                        <option value="sek">Coroa Sueca</option>
+                        <option value="thb">Baht Tailandes</option>
+                        <option value="try">Nova Lira Turca</option>
+                        <option value="twd">Dolar Taiuanes</option>
+                        <option value="vef">Bolicar Venezuelano</option>
+                        <option value="zar">Rand Sul-Africano</option>
+                        <option value="clp">Peso chileno</option>
+                        <option value="pyg">Guarani Paraguaio</option>
+                        <option value="uyu">Peso Uruguaio</option>
+                        <option value="cop">Peso Colombiano</option>
+                        <option value="pen">Sol do Peru</option>
+                        <option value="bob">Boliviano</option>
+                        <option value="rub">Rublo Russo</option>
+                        <option value="inr">Rupia Indiana</option>
+                        <option value="xau">Ouro</option>
+                        <option value="xag">Prata Spot</option>
+                        <option value="rsd">Dinar Servio</option>
+                        <option value="krw">Won Sul Coreano</option>
+                        <option value="brett">Brett</option>
+                        <option value="sol">Solana</option>
+                        <option value="bnb">Binance Coin</option>
+                        <option value="crc">Colon Costarriquenho</option>
+                        <option value="ron">Leu Romeno</option>
+                        <option value="egp">Libra Egipicia</option>
+                        <option value="kes">Shilling Queniano</option>
+                        <option value="php">Peso filipino</option>
+                        <option value="huf">Florim Hungaro</option>
+                        <option value="czk">Coroa Checa</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit">Converter</button>
+        </form>
+
+        <h2 id="result"></h2>
+    </main>
+
+    <footer>
+        <span>
+            &copy; Conversor de Moedas 2025 - Todos os direitos reservados.
+        </span>
+    </footer>
+    <script src="script.js"></script>
+    <!-- @AUTHOR: Diogo Leite -->
+</body>
+</html>
